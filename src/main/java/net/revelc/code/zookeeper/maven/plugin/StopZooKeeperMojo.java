@@ -78,7 +78,7 @@ public class StopZooKeeperMojo extends AbstractZooKeeperMojo {
         }
       }
     } catch (ConnectException e) {
-      throw new MojoFailureException("ZooKeeper service not running", e);
+      getLog().warn("ZooKeeper service not running", e);
     } catch (IOException e) {
       throw new MojoFailureException("Couldn't write shutdown message to " + clientPortAddress
           + ":" + shutdownPort, e);

@@ -21,7 +21,7 @@
   </parent>
   <groupId>net.revelc.code</groupId>
   <artifactId>zookeeper-maven-plugin</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.1.patched</version>
   <packaging>maven-plugin</packaging>
   <name>ZooKeeper Maven Plugin</name>
   <description>A Maven plugin for launching a ZooKeeper server for integration testing</description>
